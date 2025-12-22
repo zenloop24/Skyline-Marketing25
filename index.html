@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Marketing | FMCG </title>
+    <link rel="shortcut icon" href="https://framerusercontent.com/images/YSdobC45mkoLCNuWcMVS8P7xoXg.png" type="images">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&family=Inter:wght@300;400;600&display=swap">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo" style="
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #333;">
+
+            <i class="fas fa-shipping-fast" style="
+        font-size: 1.7rem; 
+        color: var(--action-color, #2563eb);"></i>
+
+            <div style="display: flex; flex-direction: column; line-height: 1;">
+                <span style="font-weight: 800; font-size: 1.25rem; letter-spacing: -0.4px;">SKYLINE</span>
+                <span
+                    style="font-weight: 400; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: #666;">Marketing..</span>
+            </div>
+        </a>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <style>
+            .nav-minimal {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+                list-style: none;
+                font-family: sans-serif;
+            }
+
+            .nav-minimal a {
+                text-decoration: none;
+                color: #000;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 600;
+                position: relative;
+            }
+
+            /* Underline Animation */
+            .nav-minimal a:not(.btn-quote)::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                bottom: -5px;
+                left: 0;
+                background-color: var(--action-color, #2563eb);
+                transition: width 0.3s;
+            }
+
+            .nav-minimal a:not(.btn-quote):hover::after {
+                width: 100%;
+            }
+
+            /* Outline Button */
+            .nav-minimal .btn-quote {
+                border: 2px solid #000;
+                padding: 0.6rem 1.5rem;
+                transition: background 0.3s, color 0.3s;
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .nav-minimal .btn-quote:hover {
+                background: #000;
+                color: #fff;
+            }
+        </style>
+
+        <!-- Sectio__1 -->
+
+        <ul class="nav-links nav-minimal" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li>
+                <a href="#contact" class="btn-quote">
+                    Get Quote <i class="fas fa-paper-plane"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Section__2 -->
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 style="font-family: recoleta regular;">Delivering On-time.Partnering Success.</h1><hr>
+            <p>Fast, Reliable FMCG Distribution You Can Count On | We move your business forward | Skyline Marketing</p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="#contact" class="btn-quote"
+                    style="background: var(--action-color); color: var(--primary-color);">
+                    Start Now <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#services" class="btn-hero">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section__3 -->
+
+    <section class="section-padding bg-light" id="services">
+        <div class="section-header">
+            <h2>Our Capabilities</h2>
+            <div class="line"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon-circle"><i class="fas fa-truck-loading"></i></div>
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">On-Time Delivery</h3>
+                <p>Reliable road & rail transport networks designed for speed and safety.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-circle"><i class="fas fa-boxes"></i></div>
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Smart Warehousing</h3>
+                <p>Solid Inventory Control, Credit Control & Cash Discipline.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-circle"><i class="fas fa-bullhorn"></i></div>
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Retail Marketing</h3>
+                <p>We push your product into high-demand retail chains and e-commerce platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/logo.png" alt="Modern Warehouse Logistics">
+            </div>
+            <div class="about-text">
+                <h2 style="font-size: 2.2rem; color: var(--primary-color); margin-bottom: 1rem;">Bridging the Gap
+                    Between Distribution & Consumer</h2>
+                <div class="line" style="margin: 0 0 1.5rem 0;"></div>
+                <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Established in 2025, Skyline Distribution has grown to become a leading name in the FMCG food
+                    logistics space.
+                    Our commitment is to bridge
+                    the gap between quality producers and consumers through efficient, technology-driven distribution
+                    channels.</p>
+                <br>
+
+
+
+                <div style="
+                    display: flex; 
+                    gap: 40px; 
+                    margin-top: 2rem; 
+                    font-family: 'Inter', sans-serif; 
+                    align-items: center;">
+
+                    <div style="border-left: 4px solid var(--action-color, #2563eb); padding-left: 15px;">
+                        <h3 style="font-size: 2.2rem; margin: 0; font-weight: 800; color: #111; line-height: 1;">8<span
+                                style="color: var(--action-color, #2563eb);">+</span></h3>
+                        <p
+                            style="margin: 5px 0 0; color: #666; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                            Years Exp.</p>
+                    </div>
+
+                    <div style="border-left: 4px solid var(--action-color, #2563eb); padding-left: 15px;">
+                        <h3 style="font-size: 2.2rem; margin: 0; font-weight: 800; color: #111; line-height: 1;">50<span
+                                style="color: var(--action-color, #2563eb);">+</span></h3>
+                        <p
+                            style="margin: 5px 0 0; color: #666; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                            Happy Clients</p>
+                    </div>
+             </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-4 -->
+
+    
+
+    <section class="section-padding bg-light" id="contact">
+        <div class="section-header">
+            <h2>Request A Distribution Quote</h2>
+            <p>Fill out the form below and our team will get back to you within 2 hours.</p>
+            <div class="line"></div>
+        </div>
+
+        <div class="form-container">
+            <form class="contact-form" id="whatsappForm">
+
+                <input type="text" id="companyName" placeholder="Company Name" required>
+
+                <input type="email" id="email" placeholder="Official Email Address" required>
+
+                <select id="requirement">
+                    <option value="Not Specified">Select Your Requirement</option>
+                    <option value="Full Distribution Service">Full Distribution Service</option>
+                    <option value="Logistics Only">Logistics Only</option>
+                    <option value="Warehousing Space">Warehousing Space</option>
+                </select>
+
+                <textarea id="description" rows="4" placeholder="Describe your product and volume..."></textarea>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Request
+                </button>
+            </form>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="color: #fff; margin-bottom: 1rem;">Skyline Marketing.. </div>
+                <p>Chennai's leading distribution marketing partner.</p>
+
+                <div class="gst-box scanner">
+                    <strong>GSTIN:</strong> <span class="code">33EOZPM2849C1ZJ.</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt" style="color: var(--action-color);"></i> Medavakkam, Chennai-600100</p>
+                <p><i class="fas fa-phone" style="color: var(--action-color);"></i>+91 9944396725</p>
+
+                <p style="margin-bottom: 30px;">
+                    <i class="fas fa-envelope" style="color:var(--action-color);"></i> skylinemarketing725@gmail.com
+                </p>
+            </div>
+        </div>
+        <footer style="
+    text-align: center; 
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: #1f2937; 
+    color: #f3f4f6; 
+    padding: 2rem 1rem; 
+    font-family: sans-serif; 
+    font-size: 0.9rem;">
+            &copy; 2025 Skyline Marketing.
+            <div style="margin-top: 0.5rem; font-size: 0.75rem; color: #9ca3af;">
+                Designed with ZenLoop.
+            </div>
+        </footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
